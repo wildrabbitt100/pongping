@@ -1,0 +1,6 @@
+For one it causes extra cpu, memory and compile time. If you don't absolutely have to include something, don't. Like if all you need is pointers to 
+some struct, you just predeclare: struct foo;, and now your header can reference the struct without including the entire header.There are other reasons, 
+but I'm really short on sleep. Also its partly a herd thing, lots of things like libc have been getting away from implicit includes (kernel as well). 
+Used to be that some glibc headers would include a  load more. Now they don't.I think also you can claim its asking for namespace pollution. 
+Say you have your own function that happens to be the same as some obscure libc function that you don't use, or explicitly include the header for, 
+do you expect that function to be declared? I don't.

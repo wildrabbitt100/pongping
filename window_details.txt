@@ -1,0 +1,44 @@
+*************************************************************************
+
+Checking display modes with pixel format : ALLEGRO_PIXEL_FORMAT_RGBA_8888
+
+no suitable window found for this pixel format.
+
+*************************************************************************
+
+Checking display modes with pixel format : ALLEGRO_PIXEL_FORMAT_ARGB_8888
+
+no suitable window found for this pixel format.
+
+*************************************************************************
+
+Checking display modes with pixel format : ALLEGRO_PIXEL_FORMAT_ABGR_8888
+
+no suitable window found for this pixel format.
+
+*************************************************************************
+
+Checking display modes with pixel format : ALLEGRO_PIXEL_FORMAT_XBGR_8888
+
+no suitable window found for this pixel format.
+
+*************************************************************************
+
+Checking display modes with pixel format : ALLEGRO_PIXEL_FORMAT_RGBX_8888
+
+no suitable window found for this pixel format.
+
+*************************************************************************
+
+Checking display modes with pixel format : ALLEGRO_PIXEL_FORMAT_XRGB_8888
+found window with height = 480 and width = 640
+
+found window with height = 576 and width = 720
+
+found window with height = 600 and width = 800
+
+found desired window size (1024 * 178) 
+
+Setting the best window size found for this pixel format :-
+
+height = 768 width = 1024

@@ -1,0 +1,99 @@
+*************************************************************************************************
+*******************************  Program beginning.  ********************************************
+*************************************************************************************************
+
+
+
+
+pongping_essentials.cpp:149:int PongPingEssentials::process_configuration_file(): Using start level specified in configuration file.
+*************************************************************************************************
+*******************************  Getting display details.  **************************************
+*************************************************************************************************
+
+
+
+
+pongping_essentials.cpp:239:int PongPingEssentials::get_display_details(): *************************************************************************
+
+Checking display modes with pixel format : pongping_essentials.cpp:244:int PongPingEssentials::get_display_details(): ALLEGRO_PIXEL_FORMAT_RGBA_8888
+
+no suitable window found for this pixel format.
+
+pongping_essentials.cpp:239:int PongPingEssentials::get_display_details(): *************************************************************************
+
+Checking display modes with pixel format : pongping_essentials.cpp:247:int PongPingEssentials::get_display_details(): ALLEGRO_PIXEL_FORMAT_ARGB_8888
+
+no suitable window found for this pixel format.
+
+pongping_essentials.cpp:239:int PongPingEssentials::get_display_details(): *************************************************************************
+
+Checking display modes with pixel format : pongping_essentials.cpp:250:int PongPingEssentials::get_display_details(): ALLEGRO_PIXEL_FORMAT_ABGR_8888
+
+no suitable window found for this pixel format.
+
+pongping_essentials.cpp:239:int PongPingEssentials::get_display_details(): *************************************************************************
+
+Checking display modes with pixel format : pongping_essentials.cpp:253:int PongPingEssentials::get_display_details(): ALLEGRO_PIXEL_FORMAT_XBGR_8888
+
+no suitable window found for this pixel format.
+
+pongping_essentials.cpp:239:int PongPingEssentials::get_display_details(): *************************************************************************
+
+Checking display modes with pixel format : pongping_essentials.cpp:256:int PongPingEssentials::get_display_details(): ALLEGRO_PIXEL_FORMAT_RGBX_8888
+
+no suitable window found for this pixel format.
+
+pongping_essentials.cpp:239:int PongPingEssentials::get_display_details(): *************************************************************************
+
+Checking display modes with pixel format : pongping_essentials.cpp:259:int PongPingEssentials::get_display_details(): ALLEGRO_PIXEL_FORMAT_XRGB_8888
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 480pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 480pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 480pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 480pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 480pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 480pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 480pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 480pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 480pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 576pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 576pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 576pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 576pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 600pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 600pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 600pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 600pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:292:int PongPingEssentials::get_display_details(): mode height = 768pongping_essentials.cpp:294:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:295:int PongPingEssentials::get_display_details(): mode format = 23pongping_essentials.cpp:297:int PongPingEssentials::get_display_details(): 
+pongping_essentials.cpp:308:int PongPingEssentials::get_display_details(): found desird width and height.
+found desired window size (1024 * 178) 
+pongping_essentials.cpp:333:int PongPingEssentials::get_display_details(): 
+Setting the best window size found for this pixel format :-
+
+pongping_essentials.cpp:347:int PongPingEssentials::get_display_details(): height = 768pongping_essentials.cpp:349:int PongPingEssentials::get_display_details():  width = 1024*************************************************************************************************
+*************************** Finished getting display details.  **********************************
+*************************************************************************************************
+
+
+
+
+pongping_headers/individual/pongping_essentials.h:222:PongPingEssentials::PongPingEssentials(): 
+Loading bitmaps from game_menu_list.txt 
+pongping_headers/individual/pongping_essentials.h:233:PongPingEssentials::PongPingEssentials()

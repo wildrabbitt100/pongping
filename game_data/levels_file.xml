@@ -1,0 +1,1201 @@
+<?xml version="1.0" ?>
+
+
+<level_definition_for_willam_labbetts_awesome_new_game>
+
+<number_of_levels n="23" />
+
+<level level_number = "1" >
+
+   <border_colour r="0" g="0" b="128" /> <!-- blue -->
+   
+   <background_colour r="16" g="86" b="19" />
+   
+   <ball_colour r="192" g="0" b="0" />
+   
+   <task>SURVIVE FOR A MINUTE</task>
+   
+   <song>game_data/song11.ogg</song>
+   
+   <ball_position x="480" y = "30" />
+   
+   <ball_increment increment="6.5" />
+   
+   <initial_angle angle="1.75" />
+   
+   <ball_speed_change time="10" difference="1.0" />
+   <ball_speed_change time="40" difference="1.0" />
+   <ball_speed_change time="50" difference="1.0" />
+   
+
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="0" />
+   
+   <polygon x="212" y="144" sides="3" width="50" increment_angle="0.02" direction="0"  initial_angle="0.0" type="one_coloured" regular="yes" circles="" layers="3">
+      <color r="78" g="70" b="136" />
+   </polygon>
+   
+   <polygon x="362" y="144" sides="4" width="50" increment_angle="0.02" direction="0"  initial_angle="0.0" type="one_coloured" regular="yes" circles="" layers="3">
+      <color r="78" g="70" b="136" />
+   </polygon>
+   
+   <polygon x="512" y="144" sides="5" width="50" increment_angle="0.02" direction="0"  initial_angle="0.0" type="one_coloured" regular="yes" circles="" layers="3">
+      <color r="78" g="70" b="136" />
+   </polygon>
+   
+   <polygon x="662" y="144" sides="4" width="50" increment_angle="0.02" direction="0"  initial_angle="0.0" type="one_coloured" regular="yes" circles="" layers="3">
+      <color r="78" g="70" b="136" />
+   </polygon>
+   
+   <polygon x="812" y="144" sides="3" width="50" increment_angle="0.02" direction="0"  initial_angle="0.0" type="one_coloured" regular="yes" circles="" layers="3">
+      <color r="78" g="70" b="136" />
+   </polygon>
+   
+   <!--
+   <polygon x="250" y="120" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="4.71"  type="one_coloured" regular="yes">
+      <color r="255" g="255" b="255" />
+   </polygon>
+   
+   <polygon x="512" y="120" sides="4" width="30" increment_angle="0.02" direction="0"  initial_angle="4.71" type="one_coloured" regular="yes">
+      <color r="255" g="255" b="255" />
+   </polygon>
+   
+   <polygon x="762" y="120" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="4.71"  type="one_coloured" regular="yes">
+      <color r="255" g="255" b="255" />
+   </polygon>
+   -->
+   
+   <survive_until time = "60" />
+   
+   
+   
+</level>
+
+<level level_number = "2">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" /> <!-- violet -->
+   <ball_colour r="255" g="255" b="255" />
+   
+   <polygon x="114" y="144" sides="4" increment_angle="0.02" direction="0"  initial_angle="0.0" type="reducable_polygon" regular="no" circles="" layers="3">
+      <color r="78" g="70" b="136" />
+	  <vertex x=" 114" y="106" />
+	  <vertex x=" 190"  y="144" />
+	  <vertex x=" 114" y="182" />
+	  <vertex x=" 38"  y="144"  />
+   </polygon>
+   
+   <polygon x="247" y="144" sides="4" increment_angle="0.02" direction="0"  initial_angle="0.0" type="reducable_polygon" regular="no" circles="" layers="3">
+      <color r="230" g="252" b="78" />
+	  <vertex x="247" y="68" />
+	  <vertex x="285" y="144" />
+	  <vertex x="247" y="220" />
+	  <vertex x="209" y="144"  />
+   </polygon>
+  
+   <polygon x="380" y="144" sides="4" increment_angle="0.02" direction="0"  initial_angle="0.0" type="reducable_polygon" regular="no" layers="3">
+      <color r="78" g="70" b="136" />
+	  <vertex x=" 380" y="106" />
+	  <vertex x=" 456"  y="144" />
+	  <vertex x=" 380" y="182" />
+	  <vertex x=" 304"  y="144"  />
+   </polygon>
+   
+   <polygon x="513" y="144" sides="4" increment_angle="0.02" direction="0"  initial_angle="0.0" type="reducable_polygon" regular="no" layers="3">
+      <color r="230" g="252" b="78" />
+	  <vertex x="513" y="68" />
+	  <vertex x="551" y="144" />
+	  <vertex x="513" y="220" />
+	  <vertex x="475" y="144"  />
+   </polygon>
+   
+   <polygon x="646" y="144" sides="4" increment_angle="0.02" direction="0"  initial_angle="0.0" type="reducable_polygon" regular="no" layers="3">
+      <color r="78" g="70" b="136" />
+	  <vertex x=" 646" y="106" />
+	  <vertex x=" 722"  y="144" />
+	  <vertex x=" 646" y="182" />
+	  <vertex x=" 570"  y="144"  />
+   </polygon>
+   
+   <polygon x="779" y="144" sides="4" increment_angle="0.02" direction="0"  initial_angle="0.0" type="reducable_polygon" regular="no" layers="3">
+      <color r="230" g="252" b="78" />
+	  <vertex x="779" y="68" />
+	  <vertex x="817" y="144" />
+	  <vertex x="779" y="220" />
+	  <vertex x="741" y="144"  />
+   </polygon>
+   
+   <polygon x="912" y="144" sides="4" increment_angle="0.02" direction="0"  initial_angle="0.0" type="reducable_polygon" regular="no" layers="3">
+      <color r="78" g="70" b="136" />
+	  <vertex x=" 912" y="106" />
+	  <vertex x=" 988"  y="144" />
+	  <vertex x=" 912" y="182" />
+	  <vertex x=" 836"  y="144" />
+   </polygon>
+   
+   <!-- lower row. -->
+   
+   <polygon x="82" y="300" sides="4" increment_angle="0.02" direction="1"  initial_angle="0.0" type="destructable" regular="no" layers="3">
+      <color r="10" g="106" b="30" />
+	  <vertex x="82"   y="270"  /> <!-- upper most  --> 
+	  <vertex x="142"  y="300"  /> <!-- right most  -->
+	  <vertex x="82"   y="330"  /> <!-- bottom most -->
+	  <vertex x="22"   y="300"  /> <!-- left most   -->
+   </polygon>
+   
+   <polygon x="187" y="300" sides="4" increment_angle="0.02" direction="1"  initial_angle="0.0" type="destructable" regular="no" layers="3">
+      <color r="81" g="51" b="11" />
+	  <vertex x="187" y="240" />
+	  <vertex x="217"  y="300" />
+	  <vertex x="187" y="360" />
+	  <vertex x="157"  y="300"  />
+   </polygon>
+   
+   <polygon x="292" y="300" sides="4" increment_angle="0.02" direction="1"  initial_angle="0.0" type="destructable" regular="no" layers="3">
+      <color r="10" g="106" b="30" />
+	  <vertex x=" 292"  y="270" />
+	  <vertex x=" 352"  y="300" />
+	  <vertex x=" 292"  y="330" />
+	  <vertex x=" 232"  y="300" />
+   </polygon>
+   
+   <polygon x="397" y="300" sides="4" increment_angle="0.02" direction="1"  initial_angle="0.0" type="destructable" regular="no" layers="3">
+      <color r="81" g="51" b="11" />
+	  <vertex x="397" y="240" />
+	  <vertex x="427"  y="300" />
+	  <vertex x="397" y="360" />
+	  <vertex x="367"  y="300"  />
+   </polygon>
+   
+   <polygon x="502" y="300" sides="4" increment_angle="0.02" direction="1"  initial_angle="0.0" type="destructable" regular="no" layers="3">
+      <color r="10" g="106" b="30" />
+	  <vertex x="502"  y="270" />
+	  <vertex x="562"  y="300" />
+	  <vertex x="502"  y="330" />
+	  <vertex x="442"  y="300"  />
+   </polygon>
+   
+   <polygon x="607" y="300" sides="4" increment_angle="0.02" direction="1"  initial_angle="0.0" type="destructable" regular="no" layers="3">
+      <color r="81" g="51" b="11" />
+	  <vertex x="607" y="240" />
+	  <vertex x="637"  y="300" />
+	  <vertex x="607" y="360" />
+	  <vertex x="577"  y="300"  />
+   </polygon>
+   
+   <polygon x="712" y="300" sides="4" increment_angle="0.02" direction="1"  initial_angle="0.0" type="destructable" regular="no" layers="3">
+      <color r="10" g="106" b="30" />
+	  <vertex x="712" y="270" />
+	  <vertex x="772"  y="300" />
+	  <vertex x="712" y="330" />
+	  <vertex x="652"  y="300"  />
+   </polygon>
+   
+   <polygon x="817" y="300" sides="4" increment_angle="0.02" direction="1"  initial_angle="0.0" type="destructable" regular="no" layers="3">
+      <color r="81" g="51" b="11" />
+	  <vertex x="817" y="240" />
+	  <vertex x="847"  y="300" />
+	  <vertex x="817" y="360" />
+	  <vertex x="787"  y="300"  />
+   </polygon>
+   
+   <polygon x="922" y="300" sides="4" increment_angle="0.02" direction="1"  initial_angle="0.0" type="destructable" regular="no" layers="3">
+      <color r="10" g="106" b="30" />
+	  <vertex x="922" y="270" />
+	  <vertex x="982"  y="300" />
+	  <vertex x="922" y="330" />
+	  <vertex x="862"  y="300"  />
+   </polygon>
+  
+  
+</level>
+
+
+<level level_number = "3">
+
+   <task>DESTROY ALL THE POLYGONS</task>
+   
+   <border_colour r="128" g="0" b="0" /> <!-- red -->
+   
+   <background_colour r="0" g="0" b="0" />
+   
+   <ball_colour r="192" g="0" b="0" />
+   
+   
+   <ball_position x="665" y="316" />
+   
+   <ball_increment increment="7.0" />
+   
+   <ball_speed_change time="10" difference="7.0" />
+   <ball_speed_change time="50" difference="0.5" />
+   
+   <quotas letter_quota="20" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="0" />
+   
+   <initial_angle angle="0.39" />
+   
+   
+   <polygon x="60" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="128" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="196" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="264" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="332" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="400" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="468" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="536" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="604" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="672" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="740" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="808" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="876" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+     
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="944" y="54" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+     
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   
+   
+   <!-- second row of triangles -->
+   
+   <polygon x="60" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="128" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="196" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+     
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="264" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="332" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="400" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="468" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+     
+	  <color r="60" g="81" b="86" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="536" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="604" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+     
+	  <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="672" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="740" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="808" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="876" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="944" y="122" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   
+   <!-- third row of triangles -->
+   
+   <polygon x="60" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="128" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="196" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="264" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="332" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="400" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="468" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="86" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="536" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="604" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="672" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="740" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="808" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="876" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   <polygon x="944" y="190" sides="3" width="32" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="3">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+   </polygon>
+   
+   
+</level>
+
+
+
+<level level_number = "4">
+
+   <task>DESTROY ALL THE POLYGONS</task>
+   
+   <border_colour r="255" g="128" b="0" />
+   
+   <background_colour r="0" g="0" b="0" />
+   
+   <ball_colour r="192" g="0" b="0" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="0" />
+   
+   <ball_position x="665" y="316" />
+   
+   <ball_increment increment="7.0" />
+   
+   <ball_speed_change time="10" difference="7.0" />
+   <ball_speed_change time="50" difference="0.5" />
+   
+   
+   
+   <initial_angle angle="0.39" />
+   
+   <polygon x="500" y="354" sides="5" width="80" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" regular="yes" layers="5">
+      <color r="60" g="81" b="45" />
+	  <color r="81" g="45" b="73" />
+	  <color r="78" g="91" b="138" />
+	  <color r="200" g="0" b="0" />
+	  <color r="100" g="0" b="0" />
+   </polygon>
+   
+   
+   
+</level>
+
+
+
+<level level_number = "5">
+
+   <task>DESTROY 5 POLYGONS AND FREE THE LETTERS</task>
+   
+   <border_colour r="0" g="0" b="100" />
+   
+   <background_colour r="0" g="0" b="0" />
+   
+   <ball_colour r="192" g="0" b="0" />
+   
+   
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="0" />
+   
+   <ball_position x="400" y="76" />
+   
+   <ball_increment increment="7.0" />
+   
+   <ball_speed_change time="30" difference="0.5" />
+   <ball_speed_change time="60" difference="0.5" />
+   <ball_speed_change time="90" difference="0.5" />
+   
+   <collectables number_of_collectables=""/>
+      
+   
+   <initial_angle angle="0.39" />
+   
+   <polygon x="152" y="354" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="destructable" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+	  <shaded rings="3" />
+   </polygon>
+   
+   <polygon x="242" y="244" sides="4" width="38" increment_angle="0.02" direction="1" initial_angle="0.0" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   
+   <polygon x="332" y="354" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="destructable" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+	  <shaded rings="3" />
+   </polygon>
+   
+   <polygon x="422" y="244" sides="4" width="38" increment_angle="0.02" direction="1" initial_angle="0.0" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   <polygon x="512" y="354" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="destructable" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+	  <shaded rings="3" />
+   </polygon>
+   
+   <polygon x="602" y="244" sides="4" width="38" increment_angle="0.02" direction="1" initial_angle="0.0" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   <polygon x="692" y="354" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="destructable" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+	  <shaded rings="3" />
+   </polygon>
+   
+   <polygon x="782" y="244" sides="4" width="38" increment_angle="0.02" direction="1" initial_angle="0.0" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   <polygon x="872" y="354" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="destructable" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+	  <shaded rings="3" />
+   </polygon>
+   
+   <polygon x="152" y="354" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="destructable" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+	  <shaded rings="3" />
+   </polygon>
+   
+   <polygon x="242" y="244" sides="4" width="38" increment_angle="0.02" direction="1" initial_angle="0.0" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   
+   <!-- first row -->
+   
+   <polygon x="332" y="134" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   <polygon x="512" y="134" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   <polygon x="692" y="134" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   <polygon x="872" y="134" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   <polygon x="152" y="134" sides="8" width="70" increment_angle="0.02" direction="1" initial_angle="0.39" type="reducable_polygon" regular="yes" layers="1">
+      <color r="93" g="4" b="167" />
+   </polygon>
+   
+   <!-- end of first row -->
+   
+</level>
+
+<!--
+<level level_number = "4">
+
+   <task>DESTROY ALL THE POLYGONS</task>
+   
+   <ball_position x="665" y="316" />
+   
+   <ball_increment increment="7.0" />
+   
+   <ball_speed_change time="10" difference="7.0" />
+   <ball_speed_change time="50" difference="0.5" />
+   
+   <polygon x="100" y="190" sides="5" width="70" increment_angle="0.02" direction="1" initial_angle="0.0" type="destructable" >
+   
+   </polygon>
+   
+   <initial_angle angle="0.39" />
+
+</level>
+-->
+
+
+<level level_number = "6">
+
+   <task>PLACEHOLDER</task>
+   
+   <border_colour r="0" g="0" b="100" />
+   
+   <background_colour r="0" g="0" b="0" />
+   
+   <ball_colour r="192" g="0" b="0" />
+   
+   
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="0" />
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+<level level_number = "7">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+<level level_number = "8">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+<level level_number = "9">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+<level level_number = "10">
+
+   <task>Ssss</task>
+   
+   <ball_position x="30" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="0.875" />
+   
+   <polygon x="113" y="384" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="0.0" type="one_coloured">
+      <color r="255" g="255" b="255" />
+   </polygon>
+   
+   <polygon x="246" y="384" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="0.785" type="one_coloured">
+      <color r="255" g="255" b="255" />
+   </polygon>
+   
+   <polygon x="379" y="384" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="0.0" type="one_coloured">
+      <color r="255" g="255" b="255" />
+   </polygon>
+   
+   <polygon x="512" y="384" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="0.785" type="one_coloured">
+      <color r="255" g="255" b="255" />
+   </polygon>
+   
+   <polygon x="645" y="384" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="0.0" type="one_coloured">
+      <color r="255" g="255" b="255" />
+   </polygon>
+   
+   <polygon x="778" y="384" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="0.785" type="one_coloured">
+      <color r="255" g="255" b="255" />
+   </polygon>
+   
+   <polygon x="911" y="384" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="0.0" type="one_coloured">
+      <color r="255" g="255" b="255" />
+   </polygon>
+  
+   <polygon x="977" y="384" sides="4" width="70" increment_angle="0.02" direction="1"  initial_angle="0.785" type="one_coloured">
+      <color r="255" g="255" b="255" />
+   </polygon>
+  
+</level>
+
+
+<level level_number = "11">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+<level level_number = "12">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+<level level_number = "13">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+<level level_number = "14">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+<level level_number = "15">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+<level level_number = "16">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+
+
+<level level_number = "17">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+<level level_number = "18">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+
+
+<level level_number = "19">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+<level level_number = "20">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+
+<level level_number = "21">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+<level level_number = "22">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="60" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="4" />
+   
+   <catchment_area x="452" y="339" w="120" h="90" bitmap_number="0" />
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+
+
+<level level_number = "23">
+
+   <task>SURVIVE FOR 2 MINUTES</task>
+   
+   
+   
+   
+   
+   <ball_position x="508" y="20" />
+   
+   <ball_increment increment="6.0" />
+   
+   <initial_angle angle="1.57" />
+   
+   <survive_until time="10" />
+   
+   <quotas letter_quota="0" ball_speed_up_quota="0" ball_speed_down_quota="0" bat_size_up_quota="0" />
+   
+ 
+   
+   <background_colour r="72" g="0" b="12"/>
+   <border_colour r="180" g="0" b="180" />
+   <ball_colour r="255" g="255" b="255" />
+   
+   
+</level>
+
+<!--
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level><level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+<level level_number = "">
+</level>
+
+
+-->
+</level_definition_for_willam_labbetts_awesome_new_game>
+

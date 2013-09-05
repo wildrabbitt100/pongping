@@ -1,0 +1,23 @@
+pongping_words m
+pong_play m
+pong_control_options m
+pong_instructions m
+pong_quit m
+set_to_use m
+keyboard m
+joypadslashjoystick m
+plugged_in m
+installed m
+no m
+driver m
+level m
+numbers m
+get_ready m
+level_complete m
+game_over m
+extra_life_letters m
+spiral_converted
+congratulations m
+congratulations_overlay m
+congratulations_background
+pongping_font

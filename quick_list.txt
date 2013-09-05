@@ -1,0 +1,70 @@
+0.1 Finish font for game.
+0.2 Get font to load.
+0.3 Get font manager able to make a bitmap.  
+1.  Get options bitmaps to appear on main menu.
+1.1 Get control options menu working.
+1.2 Get display options screen working.
+1.3 Get code working to calculate size of available screen area.
+1.5 Get nice pattern on GUI's
+2.  Circle to circle collisions - get circles 
+    bouncing off eachother                                     
+3. Fix bug where circles go off bottom of screen               
+3.2 Get stationary vertex collisions working                    
+3.5 Torture test - stationary vertex collisions, 
+    statioary line collisions, lots of circles 
+	and lots of stationart polygons.                 
+5.  Different size circles.                          
+9.  Bat collisions.                                  
+10. Polar coordinates.                               
+11. Rotating line collisions.                        
+12. Rotating vertex collisions.                      
+13. Escape button for all menus.                     
+14. Control options menu -                          
+15. Different size balls.                            
+16. Try gravity.                                     
+17. Update() virtual.                                
+18. Resource check.                                  
+19. Bat overtaking ball problem.                     
+20. Collectable distribution.                        
+21. Extra life system.                               
+22. Ball getting stuck problem.                      
+23. Polygon drawing code - get it to only use polar coordinated 
+24. Polygon type test.                               
+26. Instructions screen.                             
+27. Sound effects.                                   
+29. boredom                                          
+30. Level fade in.                                   
+31. Info bitmap special effect.                      
+32. Control options menu bug.                       
+34. Input methods - mouse, keyboard and joystick    
+34.5 hotplugging for all input methods
+35. Memory leak test.                                
+36. Opening screen.                                 
+37. levels  1 -  5                                  
+38. levels  6 - 10                                  
+39. levels 11 - 15                                  
+40. levels 16 - 20                                 
+41. levels 21 - 25                                  
+42. music for levels  1 -  5                 
+43. music for levels  6 - 10                  
+44. music for levels 11 - 15                   
+45. music for levels 16 - 20                  
+46. music for levels 21 - 25                   
+47. finalise levels  1 -  5                   
+48. finalise levels  6 - 10                   
+49. finalise levels 11 - 15                  
+50. finalise levels 16 - 20                    
+51. finalise levels 21 - 25                    
+52. Test collisions and ball stuck.            
+54. Make final config file.                  
+55. Title music.                           
+57. remove PONGPING_PI * 2                      
+58. Check window and fullscreen code.         
+59. Test on laptops, different machines.      
+60. Choose version number.                    
+62. Write readme.                            
+64. Simplify stationary_line_collision.       
+65. Header naming and prerequisites.           
+67. Download sed. Use it for changing header.     
+3. Undefine development time defines.         
+33. Tidy up folders.                     
